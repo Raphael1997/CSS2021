@@ -1,0 +1,36 @@
+/*
+    Los margenes verticales colapsan
+*/
+
+body {
+    background-color: #cecece;
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    background-color: lightcoral;
+    height: 100px;
+    margin-bottom: 20px;
+        /* overflow: hidden; */ /*Solución 1 -> Colapsado de margen entre padres y hijos*/
+       /*  padding: 1px; */ /*Soluciion 2*/
+       border-top: 1px solid lightcoral; /*Soluciion 3*/
+}
+
+.title {
+    margin: 0;
+    margin-top: 30px;
+}
+
+.box-1,
+.box-2 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+}
+
+.box-1 {
+    margin-bottom: 30px;
+}

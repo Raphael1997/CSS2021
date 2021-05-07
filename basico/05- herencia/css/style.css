@@ -1,0 +1,25 @@
+
+body {
+    background-color: gray;
+}
+.h1 {
+    color: blueviolet;
+}
+
+.text {
+    color: purple;
+    font-size: 1.5rem;
+}
+
+.enlace {
+    color: inherit;
+    text-decoration: none;
+}
+
+.list {
+    color: turquoise;
+}
+
+.list-item:nth-child(1) {
+    color: initial;
+}

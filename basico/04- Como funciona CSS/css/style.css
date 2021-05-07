@@ -1,0 +1,8 @@
+/*
+    Como funciona CSS
+        Espeficidad: Establece como de especifico es un selector para saber que estilo aplicar.
+        El calculo se realiza con la siguiente formula
+            Etiquetas y pseudoelementos 0, 0, 1
+            Clases, atributos y pseudoclases 0, 1, 0
+            Estilos en linea 1, 0, 0
+*/
