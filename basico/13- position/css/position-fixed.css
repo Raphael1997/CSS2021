@@ -1,0 +1,22 @@
+
+body {
+    margin: 0;
+    background-color: #333;
+    padding-top: 70px;
+}
+
+.header {
+    text-align: center;
+    padding: 25px 0;
+    background-color: lightcoral;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.link {
+    position: fixed;
+    width: 200px;
+    background-color: brown;
+}

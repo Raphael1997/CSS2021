@@ -1,4 +1,4 @@
-/*
+
     La propiedad position nos permite posicionar los elementos. Hay 
     algunos conceptos que debemos conocer para entender position.
 
@@ -31,5 +31,4 @@
 
         fixed -> El elemento perderá sus medidas y su espacio reservado. Si lo movemos usará el elemento html de referencia, y además se quedará fijo en esa posición aunque hagamos scroll.
 
-        
-*/  
+        sticky -> Es una mezcla de relative y "fixed". Con este tipo de posicionamiento los valores top, left, bottom y right no sirven para mover el elemento, so no para indicarle en que punto pasará a tener un comportamiento de posicionamiento similar a fixed, hasta lelgar a ese punto se comportará como si no tuviera posicionamiento, auqnue si contará como posicionado si necesitaramos colocar otro elemento respecto a él (absolute)

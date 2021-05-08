@@ -1,0 +1,29 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #333;
+}
+
+.box-1,
+.box-2 {
+    width: 150px; 
+    height: 150px;
+}
+
+.box-1 {
+    /* El espacio se queda reservado con position relative*/
+    position: relative;
+    top: 150px;
+    left: 150px;
+    background-color: lightblue;
+}
+
+.box-2 {
+    position: relative;
+    bottom: 100px;
+    background-color: blueviolet;
+}

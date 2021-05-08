@@ -1,0 +1,31 @@
+
+/* sticky no funciona con la propiedad overflow 
+    Se necesita una altura
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #333;
+}
+
+.header {
+    text-align: center;
+    padding: 25px 0;
+    background-color: lightcoral;
+    color: white;
+    width: 100%;
+    height: 200px;
+}
+
+/* .menu {
+    position: sticky;
+    top: 0;
+} */
+
+.article-title {
+    position: sticky;
+    top: 0;
+}
